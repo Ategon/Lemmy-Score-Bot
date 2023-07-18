@@ -1,5 +1,5 @@
 # Lemmy Score Bot
-A lemmy bot that detects when posts reach an upvote total
+A lemmy bot that detects when posts reach an upvote total and then responds with a reply
 
 ## Setup
 1. Clone the repository
