@@ -1,0 +1,26 @@
+---
+# Whether to give the bot a bot tag (true) or not (false). Recommended to mark it but the option is here if you already 
+# marked it manually and it starts throwing user_already_exists errors
+markAsBot: false
+
+# Set to true if you want to see log messages. False if not
+# (Note I cant control log messages sent by the bot library so those will still show. Just ones thrown by the bot wont)
+showLogs: false
+
+# The timezone to use for the bot (as reference for unpinning posts at midnight)
+# You can see the options here: https://www.inmotionhosting.com/support/website/tz-ref-table/
+timezone: 'America/Toronto'
+
+# How often to check if a post has reached the required points to be responded to in minutes
+upvoteCheckInterval: 5 
+
+
+# ------------------------------------------------------------------------------
+
+
+instances:
+  programming.dev: # Instance name
+    community_request: # Community slug
+      response: "@Ategon@programming.dev This request has reached 8 points"
+      score: 8
+    
